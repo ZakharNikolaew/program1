@@ -7,6 +7,6 @@ jobs:
     runs-on: ${{ matrix.platform }}
     steps:
     - uses: actions/checkout@v2
-    - run: g++ 0212.cpp -o 0212
+    - run: g++ randkart.cpp -o 0212
     - run: ./0212
     - run: ./0212
